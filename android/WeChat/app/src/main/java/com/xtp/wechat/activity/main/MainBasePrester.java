@@ -1,4 +1,4 @@
-package com.xtp.wechat.activity.main.region;
+package com.xtp.wechat.activity.main;
 
 import com.xtp.wechat.BasePresenter;
 

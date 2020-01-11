@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="splash_bg">#D3B548</color>
+    <color name="common_top_bar">#393A3F</color>
+    <color name="icon_press">#AD9149</color>
+    <color name="white">#ffffffff</color>
+    <color name="icon_numal">#88AD9149</color>
+    <color name="main_bottom_split">#D4D4D4</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="colorPrimaryDark">#303030</color>
+    <color name="main_bottom_bg">#fcfcfc</color>
+
+
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 </resources>

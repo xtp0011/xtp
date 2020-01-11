@@ -1,8 +1,9 @@
-package zz.itcast.mediaplayer09.utils;
+package com.xtp.qqmusic.utils;
 
 import android.util.Log;
 
 public class LogUtils {
+
     private static final boolean ENABLE = true;
     
     public static void i(String tag, String msg) {

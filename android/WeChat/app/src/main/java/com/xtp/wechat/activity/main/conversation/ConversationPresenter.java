@@ -1,4 +1,8 @@
 package com.xtp.wechat.activity.main.conversation;
 
-public class ConversationPresenter {
+public class ConversationPresenter implements BaseConversationPresenter {
+    @Override
+    public void start() {
+
+    }
 }

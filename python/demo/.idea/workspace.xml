@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00739c57-44d1-4140-ba24-b22b04c69a19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../android/IMoocMusic/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/libs/nineoldandroids-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/activity/AudioPlayerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/activity/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/activity/VideoPlayerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/adapter/AudioCursorAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/adapter/MainFragmentPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/adapter/VideoCursorAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/bean/AudioItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/bean/VideoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/fragment/AudioListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/fragment/BaseFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/fragment/VideoListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/services/AudioPlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/utils/CursorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/utils/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/utils/MyAsyncQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/utils/PermisionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/QQMusic/app/src/main/java/com/xtp/qqmusic/view/VideoView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/androidTest/java/com/xtp/wechat/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/BasePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/BaseView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/WXAppliction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/login/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/login/LoginContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/login/LoginFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/login/LoginPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/MainBasePrester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/MainPrestener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/conversation/BaseConversationPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/conversation/ConversationFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/conversation/ConversationPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/main/conversation/ConversationView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/register/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/register/RegisterContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/register/RegisterFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/activity/register/RegisterPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/java/com/xtp/wechat/util/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/color/login_btn_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/app_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/bg_btn_gray.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/bg_btn_green.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/bg_et.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/bg_et_f.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/bg_et_n.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/chat_numal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/chat_press.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/contact_numal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/contact_press.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/find_numal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/find_press.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/icon_add_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/icon_back_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/icon_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/icon_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/me_numal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/me_press.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/qqlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/show_numal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/tab_chat_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/tab_contact_list_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/tab_find_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/tab_profile_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/topbar_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/wblogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/drawable/wxlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/activity_base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/activity_base_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/app/src/test/java/com/xtp/wechat/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/WeChat/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/libs/xUtils-2.6.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/java/com/xtp/mobilesafe/activity/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/java/com/xtp/mobilesafe/activity/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/java/com/xtp/mobilesafe/utli/StreamUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/java/com/xtp/mobilesafe/utli/ToastUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/java/com/xtp/mobilesafe/view/FocusTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_apps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_callmsgsafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_netmanager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_safe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_sysoptimize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_taskmanager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/home_trojan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/launcher_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/drawable/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../android/mobilesafe/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/java2word/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/java2word/src/main/java/com/xtp/DocUtli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/java2word/src/main/java/com/xtp/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/java2word/需求意向书 最新模板.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/arithmetic/NumberSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/arithmetic/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/arithmetic/TestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/AVLBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/ArrayBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/BinarySortTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/DoubleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/HumanEncodeing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/HumanEncodeingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/HumanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/LineBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/LoopNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/database/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/DesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/abstract_factory_pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/AdapterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/adapter_pattern/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/BridgePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/DrawAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/GreenCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/RedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/bridge_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/BuiderPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/VegBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/builder_pattern/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/BusinessDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/BusinessDelegatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/BusinessLookUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/EJBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/business_delegate_pattern/JMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/chain_of_responsibility_pattern/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/chain_of_responsibility_pattern/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/chain_of_responsibility_pattern/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/chain_of_responsibility_pattern/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/chain_of_responsibility_pattern/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/command_pattern/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/CoarseGrainedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/CompositeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/CompositeEntityPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/DependentObject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_entity_pattern/DependentObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_pattern/CompositePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/composite_pattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/data_access_object_pattern/DaoPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/data_access_object_pattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/data_access_object_pattern/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/data_access_object_pattern/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/DecoratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/decorator_pattern/ShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/FacadePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/ShapeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/facade_pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/factory_pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/AndCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/CriteriaFemale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/CriteriaMale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/CriteriaPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/CriteriaSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/OrCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/filter_pattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/flyweight_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/flyweight_pattern/FlyweightPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/flyweight_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/flyweight_pattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/front_controller_pattern/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/front_controller_pattern/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/front_controller_pattern/FrontControllerPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/front_controller_pattern/HomeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/front_controller_pattern/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/DebugFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/FilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/FilterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/InterceptingFilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/intercepting_filter_pattern/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/interpreter_pattern/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/interpreter_pattern/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/interpreter_pattern/InterpreterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/interpreter_pattern/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/interpreter_pattern/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/iterator_pattern/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/iterator_pattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/iterator_pattern/IteratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/iterator_pattern/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/mediator_pattern/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/mediator_pattern/MediatorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/mediator_pattern/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/memento_pattern/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/memento_pattern/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/memento_pattern/MementoPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/memento_pattern/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/model_view_controller/MVCPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/model_view_controller/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/model_view_controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/model_view_controller/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/null_object_pattern/AbstractCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/null_object_pattern/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/null_object_pattern/NullCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/null_object_pattern/NullPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/null_object_pattern/RealCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/HexaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/ObserverPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/observer_pattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/PrototypePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/ShapeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/prototype_pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/proxy_pattern/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/proxy_pattern/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/proxy_pattern/ProxyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/proxy_pattern/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/InitialContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/Service2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/ServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/service_locator_pattern/ServiceLocatorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/DoubleCheckedSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/LazyNoSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/LazySafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/SafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/singleton_pattern/SingletonPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/state_pattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/state_pattern/StartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/state_pattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/state_pattern/StatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/state_pattern/StopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/strategy_pattern/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/template_pattern/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/template_pattern/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/template_pattern/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/template_pattern/TemplatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/transfer_object_pattern/StudentBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/transfer_object_pattern/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/transfer_object_pattern/TransferObjectPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/ComputerPartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/design/visitor_pattern/VisitorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/Outter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestInterge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/error/TestStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/NioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/NioClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/TestClientA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/TestClientB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/io/TestClientC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/MyClassLoader1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/MyClassLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/SerachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/TestAppClassLoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/TestClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/TestClassLoader0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/TestClassLoader1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/loader/TestClassLoader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/memory/TestCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/memory/TestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/memory/TestOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/reflect/TestReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/BlockConainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/BlockConainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/ConainerThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/CounterTreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/SyncTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/TestThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/TestTread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/TicketTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/java/thread/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/resources/class.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/resources/class.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/learn/src/main/resources/class.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/litemall/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../javaweb/litemall/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dem.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dem.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socket" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00739c57-44d1-4140-ba24-b22b04c69a19" name="Default Changelist" comment="" />
+      <created>1566613124093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566613124093</updated>
+      <workItem from="1566613134224" duration="35000" />
+      <workItem from="1566613194234" duration="212000" />
+      <workItem from="1566613765572" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$dem.coverage" NAME="dem Coverage Results" MODIFIED="1566613383395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,15 +1,19 @@
-package com.xtp.qqmusic;
+package com.xtp.qqmusic.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.xtp.qqmusic.R;
+import com.xtp.qqmusic.utils.LogUtils;
+import com.xtp.qqmusic.utils.PermisionUtils;
+
 /**
  * Activity 的基类
  */
-public abstract class BaseActivity extends Activity implements View.OnClickListener {
+public abstract class BaseActivity extends FragmentActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +68,7 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.btn:
+            case R.id.back:
                 finish();
                 break;
             default:
@@ -84,7 +88,15 @@ public abstract class BaseActivity extends Activity implements View.OnClickListe
      * @param msg
      */
     public void showToast(String msg){
-        Toast.makeText(this,msg,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * 打印日志
+     * @param msg
+     */
+    public void logInfo(String msg){
+        LogUtils.i(getClass(),msg);
     }
 
 }

@@ -1,4 +1,4 @@
-package zz.itcast.mediaplayer10.view;
+package com.xtp.qqmusic.view;
 /*
  * Copyright (C) 2006 The Android Open Source Project
  *
@@ -392,8 +392,8 @@ public class VideoView extends SurfaceView implements MediaPlayerControl {
         }
     };
 
-    private MediaPlayer.OnCompletionListener mCompletionListener =
-        new MediaPlayer.OnCompletionListener() {
+    private OnCompletionListener mCompletionListener =
+        new OnCompletionListener() {
         public void onCompletion(MediaPlayer mp) {
             mCurrentState = STATE_PLAYBACK_COMPLETED;
             mTargetState = STATE_PLAYBACK_COMPLETED;
@@ -406,8 +406,8 @@ public class VideoView extends SurfaceView implements MediaPlayerControl {
         }
     };
 
-    private MediaPlayer.OnErrorListener mErrorListener =
-        new MediaPlayer.OnErrorListener() {
+    private OnErrorListener mErrorListener =
+        new OnErrorListener() {
         public boolean onError(MediaPlayer mp, int framework_err, int impl_err) {
             Log.d(TAG, "Error: " + framework_err + "," + impl_err);
             mCurrentState = STATE_ERROR;
@@ -741,7 +741,8 @@ public class VideoView extends SurfaceView implements MediaPlayerControl {
 		}
     	
     	isFullScreen = !isFullScreen;
-    	requestLayout();
+    	requestLayout();//刷新 onMesure(),onLayout(),onDraw(),
+        //postInvalidate(),子线程通知刷新
     }
     
     /** 如果当前是全屏状态，则返回true */

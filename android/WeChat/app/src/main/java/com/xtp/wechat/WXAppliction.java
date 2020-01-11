@@ -1,4 +1,7 @@
 package com.xtp.wechat;
 
-public class WXAppliction {
+import android.app.Application;
+
+public class WXAppliction extends Application {
+
 }
