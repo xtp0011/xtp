@@ -1,30 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: xtp
-    password: 1234
-    url: jdbc:mysql://localhost/sell?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
-  jpa:
-    show-sql: true
-  jackson:    default-property-inclusion: non-null  redis:    host: localhost
-    prot: 8090
-server:
-  port: 8080
-  servlet:    context-path: /sell
-wechat:
-  mpAppId:  wxd21454545647657cd
-  mpAPPSecret: 3454320wafwrt43jgretoe22354343957
-  openAppId: weo235243535435
-  openAppSecret: 9924wsdsfr3224frrre232242
-  mchId: 1409146202
-  mchKey: c09545349195450235356935356
-  keyPath: d:\log\conf.log 
-  notifyUrl: http://sell.natapp4.cc/sell/pay/notify
-  templateId:
-    orderStatus: 2131233454320wafwrt43jgretoe22354343957 
-sellurl:
-  wechatMpAuthorize: http://sell.natapp4.cc
-  wechatOpenAuthorize: http://sell.natapp4.cc
-  sell: http://sell.natapp4.cc
-
-   
