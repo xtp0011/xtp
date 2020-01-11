@@ -1,6 +1,9 @@
 package database;
 
-public class BinaryTreeDemo {
+/**
+ * 链表形式的二叉树(排序)
+ */
+public class BinaryTree {
 
     private class Node{
         int data;
@@ -23,7 +26,7 @@ public class BinaryTreeDemo {
      * @param data
      * @return
      */
-    public boolean insert(int data){
+    public boolean add(int data){
         Node newNode = new Node(data);
         if(root==null){
             root = newNode;

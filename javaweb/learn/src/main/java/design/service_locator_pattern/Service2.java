@@ -1,12 +1,12 @@
 package design.service_locator_pattern;
 
-public class Service1 implements Service {
+public class Service2 implements Service {
     public void execute(){
-        System.out.println("Executing Service1");
+        System.out.println("Executing Service2");
     }
 
     @Override
     public String getName() {
-        return "Service1";
+        return "Service2";
     }
 }

@@ -1,4 +1,4 @@
-package com.xtp.design.proxy_pattern;
+package design.proxy_pattern;
 
 public class RealImage implements Image {
 

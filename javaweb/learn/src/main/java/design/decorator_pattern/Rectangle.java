@@ -1,4 +1,4 @@
-package com.xtp.design.decorator_pattern;
+package design.decorator_pattern;
 
 public class Rectangle implements Shape {
     @Override

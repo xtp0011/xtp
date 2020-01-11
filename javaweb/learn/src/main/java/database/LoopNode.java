@@ -1,37 +1,30 @@
 package database;
 
-public class Node {
+public class LoopNode {
 
     private int data;//节点内容
-    private Node next;//下一个节点
+    private LoopNode next;//下一个节点
 
-    public Node(int data){
+    public LoopNode(int data){
         this.data=data;
     }
 
 
     /**
-     * 为节点追加数据
+     * 插入节点
      * @param node
      */
-    public Node append(Node node){
-        Node current = this;//当前节点
-        while (true){
-            Node nextNode = current.next();//取出下一个节点
-            if(nextNode==null){
-                break;
-            }
-            current = nextNode;//赋值给当前节点
-        }
-        current=node;
-        return current;
+    public void after(LoopNode node){
+        LoopNode oldNode = this.next();//取出下一个节点
+        this.next=node;//把新节点存成当前节点的下一节点
+        node.next=oldNode;//把原来的节点设置成新节点的下一个节点
     }
 
     /**
      * 删除下一个节点
      */
     public void removeNext(){
-        Node newNode = this.next().next();
+        LoopNode newNode = this.next().next();
         this.next = newNode;
     }
 
@@ -39,7 +32,7 @@ public class Node {
      * 获取下一节点
      * @return
      */
-    private Node next(){
+    private LoopNode next(){
         return this.next;
     }
 
@@ -51,37 +44,6 @@ public class Node {
         return this.data;
     }
 
-    /**
-     * 是否最后一个节点
-     * @return
-     */
-    public boolean isLast(){
-        return this.next()==null;
-    }
 
-    /**
-     * 显示所有节点
-     */
-    public void show(){
-        Node currentNode = this;
-        while (true){
-            System.out.print(currentNode.data+" ");
-            currentNode=currentNode.next();
-            if(currentNode==null){
-                break;
-            }
-        }
-        System.out.println();
-    }
-
-    /**
-     * 插入节点
-     * @param node
-     */
-    public void after(Node node){
-        Node oldNode = this.next();//取出下一个节点
-        this.next=node;//把新节点存成当前节点的下一节点
-        node.next=oldNode;//把原来的节点设置成新节点的下一个节点
-    }
 
 }

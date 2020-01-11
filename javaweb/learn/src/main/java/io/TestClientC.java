@@ -2,9 +2,9 @@ package io;
 
 import java.io.IOException;
 
-public class TestClientA {
+public class TestClientC {
     public static void main(String[] args) throws IOException {
         NioClient nioClient = new NioClient();
-        nioClient.start("南少霞1");
+        nioClient.start("南少霞C");
     }
 }

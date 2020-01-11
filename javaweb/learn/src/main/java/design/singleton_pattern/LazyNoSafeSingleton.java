@@ -1,4 +1,4 @@
-package com.xtp.design.singleton_pattern;
+package design.singleton_pattern;
 
 
 /**

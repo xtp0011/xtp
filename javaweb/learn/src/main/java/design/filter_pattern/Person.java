@@ -1,4 +1,4 @@
-package com.xtp.design.filter_pattern;
+package design.filter_pattern;
 
 public class Person {
     private String name;

@@ -1,4 +1,4 @@
-package com.xtp.design.adapter_pattern;
+package design.adapter_pattern;
 
 public class AudioPlayer implements MediaPlayer {
 

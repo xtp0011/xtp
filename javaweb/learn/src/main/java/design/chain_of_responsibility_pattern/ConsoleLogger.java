@@ -1,4 +1,4 @@
-package com.xtp.design.chain_of_responsibility_pattern;
+package design.chain_of_responsibility_pattern;
 
 public class ConsoleLogger extends AbstractLogger {
 

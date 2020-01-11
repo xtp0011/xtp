@@ -1,4 +1,4 @@
-package com.xtp.design.bridge_pattern;
+package design.bridge_pattern;
 
 public class Circle extends Shape {
 

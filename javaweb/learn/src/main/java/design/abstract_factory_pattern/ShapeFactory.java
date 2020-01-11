@@ -1,4 +1,4 @@
-package design.abstract_factory;
+package design.abstract_factory_pattern;
 
 /**
  * 创建扩展了 AbstractFactory 的工厂类，基于给定的信息生成实体类的对象。

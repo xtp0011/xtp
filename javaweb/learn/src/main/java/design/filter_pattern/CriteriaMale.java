@@ -1,4 +1,4 @@
-package com.xtp.design.filter_pattern;
+package design.filter_pattern;
 
 import java.util.ArrayList;
 import java.util.List;

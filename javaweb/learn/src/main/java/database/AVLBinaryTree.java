@@ -1,25 +1,11 @@
 package database;
 
-public class BinarySortTree {
-
-    public static void main(String[] args) {
-        int[] arr = new int[]{7,2,10,12,5,1,9,10};
-        BinarySortTree bst = new BinarySortTree();
-        for(int i : arr){
-            bst.add(new Node(i));
-        }
-
-        bst.midShow();
-        System.out.println();
-        System.out.println("==============================");
-        bst.delete(5);
-        bst.midShow();
-    }
+public class AVLBinaryTree {
 
     /**
      * 定义节点
      */
-   private static class Node{
+    static class Node{
         int value;
         Node left;
         Node right;
@@ -29,6 +15,38 @@ public class BinarySortTree {
         }
 
         /**
+         * 返回当前节点的高度
+         * @return
+         */
+        public int height(){
+            return Math.max(left==null?0:left.height(),right==null?0:right.height())+1;
+        }
+
+
+        /**
+         * 获取左子树高度
+         * @return
+         */
+        private int leftHeight(){
+            if(left==null){
+                return 0;
+            }
+            return left.height();
+        }
+
+        /**
+         * 获取右子树高度
+         * @return
+         */
+        private int rightHeight(){
+            if(right==null){
+                return 0;
+            }
+            return right.height();
+        }
+
+
+        /**
          * 子树中添加节点
          * @param node
          */
@@ -36,7 +54,6 @@ public class BinarySortTree {
             if(node==null){
                 return;
             }
-
             //当前节点比左子树的值更小
             if(node.value<this.value){
                 //左子树为空
@@ -54,6 +71,56 @@ public class BinarySortTree {
             }else {
                 throw new RuntimeException("数据重复异常");
             }
+
+            //检查是否平衡
+            //进行左旋转
+            if(leftHeight()-rightHeight()>1){
+                if(left!=null&&left.leftHeight()<left.rightHeight()){//双旋转
+                    //先左旋转，再右旋转
+                    left.leftRotate();
+                    rightRotate();
+                }else {//单旋转
+                    rightRotate();
+                }
+            }else if(leftHeight()-rightHeight()<-1){
+                if(right!=null&&right.leftHeight()>right.rightHeight()){//双旋转
+                    //先右旋转，再左旋转
+                    right.rightRotate();
+                    leftRotate();
+                }else {//单旋转
+                    leftRotate();
+                }
+            }
+        }
+
+        /**
+         * 左旋转
+         */
+        private void leftRotate() {
+            Node newNode = new Node(value);
+            newNode.left=left;
+            newNode.right=right.left;
+            value=right.value;
+            right=right.right;
+            left=newNode;
+        }
+
+        /**
+         * 右旋转
+         */
+        private void rightRotate() {
+            //创建一个新节点，值等于当前节点的值
+            Node newNode = new Node(value);
+            //把新节点的右子树设置成当前节点的右子树
+            newNode.right=right;
+            //把新节点的左子树设置为当前节点的左子树的右子树
+            newNode.left=left.right;
+            //把当前节点的值设置成左子节点的值
+            value=left.value;
+            //把当前节点的左子树的设置成左子树的左子树
+            left=left.left;
+            //把当前节点的右子树设置成新节点
+            right=newNode;
         }
 
         /**
@@ -170,7 +237,7 @@ public class BinarySortTree {
         }
     }
 
-   private Node root;
+    Node root;
 
     /**
      * 添加节点

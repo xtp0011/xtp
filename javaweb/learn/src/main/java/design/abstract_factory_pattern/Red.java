@@ -1,4 +1,4 @@
-package design.abstract_factory;
+package design.abstract_factory_pattern;
 
 public class Red implements Color {
     @Override

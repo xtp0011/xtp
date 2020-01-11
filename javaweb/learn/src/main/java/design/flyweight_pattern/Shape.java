@@ -1,4 +1,4 @@
-package com.xtp.design.flyweight_pattern;
+package design.flyweight_pattern;
 
 public interface Shape {
     void draw();

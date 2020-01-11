@@ -1,4 +1,4 @@
-package Sort;
+package arithmetic;
 
 import java.util.Random;
 

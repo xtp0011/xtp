@@ -1,4 +1,4 @@
-package Sort;
+package arithmetic;
 
 /**
  * 算法基础：排序方法

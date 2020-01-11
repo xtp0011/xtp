@@ -1,4 +1,4 @@
-package com.xtp.design.factory_pattern;
+package design.factory_pattern;
 
 public class Circle implements Shape {
     @Override

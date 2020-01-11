@@ -1,0 +1,14 @@
+spring-cloud
+    Eureka 主要用于服务发现，即注册中心
+    Ribbon 实现负载均衡
+    Feign  实现声明式客户端，提供接口访问
+    Hystrix 实现断路器
+    Zuul 实现API网管，统一的入口访问
+
+
+
+Zooleeper基于CP设计，强调一致性，不保证高可用
+Eureka基于AP设计，强调可用性
+
+
+注册中心的数据一般不会变化，因此Eureka更适合注册中心的使用

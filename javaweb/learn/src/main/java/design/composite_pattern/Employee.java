@@ -1,4 +1,4 @@
-package com.xtp.design.composite_pattern;
+package design.composite_pattern;
 
 import java.util.ArrayList;
 import java.util.List;

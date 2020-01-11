@@ -1,4 +1,4 @@
-package com.xtp.design.prototype_pattern;
+package design.prototype_pattern;
 
 public class Rectangle extends Shape {
 

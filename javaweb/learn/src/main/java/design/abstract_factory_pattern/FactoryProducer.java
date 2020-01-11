@@ -1,4 +1,4 @@
-package design.abstract_factory;
+package design.abstract_factory_pattern;
 
 /**
  * 创建一个工厂创造器/生成器类，通过传递形状或颜色信息来获取工厂。
